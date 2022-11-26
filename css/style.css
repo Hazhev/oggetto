@@ -3,6 +3,11 @@
     font-family: 'Montserrat';
 }
 
+a{
+    text-decoration: none;
+    color: unset;
+}
+
 @font-face {
     font-family: "Montserrat";
     src: url(../fonts/Montserrat-Regular.ttf);

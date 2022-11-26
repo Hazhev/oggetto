@@ -32,10 +32,45 @@
     background: #FFFFFF;
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    padding: 20px 30px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.card-user-box__picture{
+    width: 100px;
+}
+
+.card-user-box__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-user-box__form-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-user-box__button{
+    height: 50px;
+    border: 2px solid #FFB800;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.short-line{
+    width: 120px;
+    border-bottom: 2px solid #F5F5F5;
+}
+
 
 .facts-block{
     width: 270px;
