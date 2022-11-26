@@ -1,0 +1,17 @@
+.aside-user{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.back-box img{
+    width: 10px;
+}
