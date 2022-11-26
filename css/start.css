@@ -92,4 +92,23 @@
     color: #333333;
 }
 
+@media screen and (max-width:479px) {
+    .wrapper{
+        background-color: #FFFFFF;;
+    }
 
+    .container{
+        height: unset;
+        width: unset;
+        box-shadow: unset;
+        border-radius: unset;
+    }
+
+    .logo-container img {
+        width: 130px;
+    }
+
+    .input-box__input {
+        width: 280px;
+    }
+}
