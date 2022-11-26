@@ -1,5 +1,5 @@
 .main-block__game-aside{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .aside-game{
@@ -45,12 +45,14 @@
     cursor: pointer;
 }
 
-#face-big-pic{
-    margin: 0 325px;
+.face-big-pic{
+    max-height: 400px;
+    margin: 0 300px;
+    border-radius: 10px;
 }
 
 .user-picture{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .answers-game{
@@ -66,7 +68,7 @@
     line-height: 20px;
     color: #333333;
 
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -74,7 +76,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 570px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .answer-text{
