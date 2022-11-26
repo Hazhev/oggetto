@@ -10,6 +10,17 @@
     justify-content: space-between;
 }
 
+.aside-user__exit{
+    width: 112px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FE718E;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .back-box{
     display: flex;
     align-items: center;
