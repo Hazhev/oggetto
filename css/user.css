@@ -135,3 +135,82 @@
     width: 410px;
     border-bottom: 2px solid #F5F5F5;
 }
+
+.mobile{
+        display: none;
+    }
+
+@media screen and (max-width:1189px) {
+    .main-block{
+        padding-top: 12px;
+    }
+
+    .aside-user__back{
+        display: flex;
+        width: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background: #FFFFFF;
+        height: 50px;
+    }
+
+    .aside-text {
+        display: flex;
+        align-items: center;
+        line-height: unset;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .aside-user__exit{
+        display: none;
+        
+    }
+
+    .mobile.aside-user__exit{
+        display: flex;
+        width: 50px;
+    }
+
+    .main-block__user-aside{
+        margin-bottom: 16px;
+    }
+
+    .user-info-block{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-user-box{
+        width: 100%;
+    }
+
+    .facts-block{
+        width: unset;
+        height: unset;
+    }
+
+    .projects-box{
+        width: unset;
+        height: unset;
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .projects-box__img-text img{
+        width: 70px;
+    }
+
+    .long-line{
+        width: 100%;
+    }
+
+    
+
+    
+
+    
+}
