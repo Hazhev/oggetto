@@ -140,11 +140,6 @@
         display: none;
     }
 
-@media screen and (max-width:1189px) {
-    .main-block{
-        padding-top: 12px;
-    }
-
     .aside-user__back{
         display: flex;
         width: 50px;
@@ -154,6 +149,13 @@
         background: #FFFFFF;
         height: 50px;
     }
+
+@media screen and (max-width:1189px) {
+    .main-block{
+        padding-top: 12px;
+    }
+
+    
 
     .aside-text {
         display: flex;
@@ -208,7 +210,9 @@
         width: 100%;
     }
 
-    
+    .margin-right{
+        margin-right: 10px;
+    }
 
     
 
