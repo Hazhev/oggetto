@@ -13,7 +13,7 @@
         <header class="header">
             <div class="container-header">
 
-                <a href="index.html"><img src="img/Logo.svg" alt="" id="logo-pic"></a>
+                <a href="index.html" class="desktop"><img src="img/Logo.svg" alt="" id="logo-pic"></a>
                 <input type="text" class="container-header__search search" placeholder="Поиск">
                 <nav class="container-header__nav nav-icons">
                     <a href="store.html" ><img src="img/Shop.svg" alt=""></a>
@@ -21,7 +21,14 @@
                     <a href="index.html" class="active-page-link"><img src="img/Users.svg" alt=""></a>
                 </nav>
                 <div class="container-header__coin g-coin"><span>14</span> G-coin</div>
-                <a href="userself.html"><img src="img/Face.png" alt="" id="face-pic"></a>
+                <a href="userself.html" class="desktop"><img src="img/Face.png" alt="" id="face-pic"></a>
+
+                <select name="filter-params" class="aside-general__select mobile">
+                    <option value="Front-Developer">Front-Developer</option>
+                    <option value="Back-Developer">Back-Developer</option>
+                    <option value="design">Design</option>
+                    <option value="Product-Manager">Product-Manager</option>
+                </select>
             </div>
         </header>
 
@@ -30,7 +37,7 @@
 
                 <div class="aside-general__text aside-text">Список работников</div>
 
-                <select name="filter-params" id="aside-general__select">
+                <select name="filter-params" class="aside-general__select">
                     <option value="Front-Developer">Front-Developer</option>
                     <option value="Back-Developer">Back-Developer</option>
                     <option value="design">Design</option>
@@ -50,61 +57,108 @@
                 <div class="user-line-box">
                     <div class="user-line">
                         <img src="img/Face.png" alt="">
-                        <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
-                        <div class="user-line__text user-post">Менеджер по персоналу</div>
-                        <div class="user-line__text user-grage">Super Senior</div>
-                        <div class="user-line__text user-project">Loreal</div>
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
                         <div class="grow-container"></div>
-                        <button class="user-line__button">Telegram</button>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
                     </div>
                     <div class="user-line">
                         <img src="img/Face.png" alt="">
-                        <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
-                        <div class="user-line__text user-post">Менеджер по персоналу</div>
-                        <div class="user-line__text user-grage">Super Senior</div>
-                        <div class="user-line__text user-project">Loreal</div>
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
                         <div class="grow-container"></div>
-                        <button class="user-line__button">Telegram</button>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
                     </div>
                     <div class="user-line">
                         <img src="img/Face.png" alt="">
-                        <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
-                        <div class="user-line__text user-post">Менеджер по персоналу</div>
-                        <div class="user-line__text user-grage">Super Senior</div>
-                        <div class="user-line__text user-project">Loreal</div>
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
                         <div class="grow-container"></div>
-                        <button class="user-line__button">Telegram</button>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
                     </div>
                     <div class="user-line">
                         <img src="img/Face.png" alt="">
-                        <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
-                        <div class="user-line__text user-post">Менеджер по персоналу</div>
-                        <div class="user-line__text user-grage">Super Senior</div>
-                        <div class="user-line__text user-project">Loreal</div>
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
                         <div class="grow-container"></div>
-                        <button class="user-line__button">Telegram</button>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
                     </div>
                     <div class="user-line">
                         <img src="img/Face.png" alt="">
-                        <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
-                        <div class="user-line__text user-post">Менеджер по персоналу</div>
-                        <div class="user-line__text user-grage">Super Senior</div>
-                        <div class="user-line__text user-project">Loreal</div>
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
                         <div class="grow-container"></div>
-                        <button class="user-line__button">Telegram</button>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
                     </div>
                     <div class="user-line">
                         <img src="img/Face.png" alt="">
-                        <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
-                        <div class="user-line__text user-post">Менеджер по персоналу</div>
-                        <div class="user-line__text user-grage">Super Senior</div>
-                        <div class="user-line__text user-project">Loreal</div>
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
                         <div class="grow-container"></div>
-                        <button class="user-line__button">Telegram</button>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
                     </div>
+                    <div class="user-line mobile">
+                        <img src="img/Face.png" alt="">
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
+                        <div class="grow-container"></div>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
+                    </div>
+                    <div class="user-line mobile">
+                        <img src="img/Face.png" alt="">
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
+                        <div class="grow-container"></div>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
+                    </div>
+                    <div class="user-line mobile">
+                        <img src="img/Face.png" alt="">
+                        <div class="user-line__text-box">
+                            <div class="user-line__text user-name"><a href="user.html">Владимир Корнеев</a></div>
+                            <div class="user-line__text user-post">Менеджер по персоналу</div>
+                            <div class="user-line__text user-grage">Super Senior</div>
+                            <div class="user-line__text user-project">Loreal</div>
+                        </div>
+                        <div class="grow-container"></div>
+                        <button class="user-line__button"><span>Telegram</span><img src="img/telegram.svg" alt=""></button>
+                    </div>
+                    
                     
                 </div>
 
+                <!-- счетчик страниц -->
                 <div class="users-section__pages pages-aside">
                     <div class="pages-aside__text ">Показано <span>6</span> из <span>10</span></div>
                     <div class="pages-aside__box">
@@ -114,6 +168,16 @@
                         <img src="img/right-arrow.svg" alt="">
                     </div>
                 </div> 
+            </section>
+
+            <!-- Навигация мобильная -->
+            <section class="main-block__nav nav-mobile">
+                <nav class="nav-mobile__nav nav-icons">
+                    <a href="index.html" class="active-page-link"><img src="img/Users.svg" alt=""></a>
+                    <a href="store.html" ><img src="img/Shop.svg" alt=""></a>
+                    <a href="game.html" ><img src="img/Game.svg" alt=""></a>
+                    <a href="userself.html" ><img src="img/mypage.svg" alt=""></a>
+                </nav>
             </section>
         </main>
     </div>

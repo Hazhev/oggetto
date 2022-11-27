@@ -109,3 +109,74 @@
     color: #FE718E;
 }
 
+@media screen and (max-width:1189px) {
+
+    .main-block{
+        justify-content: space-evenly;
+    }
+    .container-header__coin {
+        display: flex !important;
+        margin-right: 0 !important;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .container-header__search{
+        display: none;
+    }
+
+    .g-coin{
+        width: 87px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .aside-game{
+        justify-content: space-evenly;
+    }
+
+    .aside-game__box {
+        width: unset;
+        position: unset;
+    }
+
+    .main-block__game-aside {
+        margin-bottom: 15px;
+    }
+    .tasks-amount{
+        width: 130px;
+        font-size: 13px;
+    }
+
+    .face-big-pic{
+        max-height: 235px;
+        margin: 0;
+    }
+
+    .user-picture{
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .arrow-game-pic {
+        width: 15px;
+    }
+
+    .nav-icons a {
+        height: 45px;
+    }
+
+    .container-unit{
+        width: unset;
+    }
+
+    .answer-text{
+        width: unset;
+        flex: 1 0 130px;
+        height: 80px;
+    }
+}
+
